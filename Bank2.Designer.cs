@@ -122,6 +122,7 @@
             this.checkBox1.Text = "Выбрать";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.Visible = false;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // label5
             // 
@@ -191,6 +192,7 @@
             this.next_button.TabIndex = 22;
             this.next_button.Text = "Дальше";
             this.next_button.UseVisualStyleBackColor = true;
+            this.next_button.Click += new System.EventHandler(this.next_button_Click);
             // 
             // label2
             // 
@@ -251,13 +253,13 @@
             "81"});
             this.comboBox3.Location = new System.Drawing.Point(295, 84);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(51, 26);
+            this.comboBox3.Size = new System.Drawing.Size(67, 26);
             this.comboBox3.TabIndex = 37;
             // 
             // numericUpDown1
             // 
             this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.numericUpDown1.Location = new System.Drawing.Point(352, 84);
+            this.numericUpDown1.Location = new System.Drawing.Point(368, 84);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(50, 24);
             this.numericUpDown1.TabIndex = 38;
